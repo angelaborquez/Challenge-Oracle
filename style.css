@@ -1,0 +1,104 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+blockquote{
+    text-align: center;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.divLogo{
+    width: 30px;
+    margin-left: 44px;
+}
+.logo{
+    width: 30px;
+}
+
+.cuerpo{
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.areaTexto{
+    width: 100%;
+    padding: 24px;
+}
+
+.texto{
+    color: #0A3871;
+    border: 0px;
+    background: none;
+    font-family: arial;
+    width: 100%;
+    font-size: 32px;
+    height: 400px;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.alerta{
+    width: 12px;
+}
+
+.botones{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+button{
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    width: 328px;
+    font-size: 16px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.encriptar{
+    color: white;
+    background: #0A3871;
+}
+
+.desencriptar{
+    color:#0A3871;
+    background: #D8DFE8;
+}
+
+.cuadroMensaje{
+    width: 100%;
+    background: white;
+    border-radius: 15px;
+    border: 0px;
+    padding: 24px;
+    color: #495057;
+    text-align: center;
+}
+
+.ilustracion{
+    width: 336px;
+}
+
+@media screen and (max-width:480px){
+    .botones{
+        flex-flow: column;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .ilustracion{
+        display: none;
+    }
+    .cuerpo{
+        flex-flow: column;
+    }
+}
